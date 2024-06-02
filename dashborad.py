@@ -8,4 +8,8 @@ def menu():
     print("4. View all users")
     print("5. Exit")
 
+def add_user(username, password):
+    print(f"Adding user {username} with password {password}")
+    return True
+
 
